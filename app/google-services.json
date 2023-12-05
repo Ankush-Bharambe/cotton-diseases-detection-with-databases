@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "968308142969",
+    "project_id": "cottondoc-e5f41",
+    "storage_bucket": "cottondoc-e5f41.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968308142969:android:01a2b2d0589f9b439935a8",
+        "android_client_info": {
+          "package_name": "com.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "968308142969-uq65r93moepidem700b3svj3e8knbboo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEgZwhgokR67Kpi-L8yFdE3Wm4PIq5moU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "968308142969-uq65r93moepidem700b3svj3e8knbboo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

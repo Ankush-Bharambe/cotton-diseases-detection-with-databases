@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2sp"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="8dp"
+    app:cardMaxElevation="10dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true">
+
+
+    <RelativeLayout
+        android:layout_width="387dp"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/feedimg"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_margin="5sp"
+            android:background="@drawable/farmer"
+            android:padding="5dp" />
+
+
+        <TextView
+            android:id="@+id/feedheading"
+            android:layout_width="273dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+
+            android:layout_toEndOf="@id/feedimg"
+
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/feeddesc"
+            android:layout_width="275dp"
+            android:layout_height="118dp"
+            android:layout_below="@id/feedheading"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="21dp"
+
+            android:layout_toEndOf="@id/feedimg"
+            android:drawablePadding="2dp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/feeddate"
+            android:layout_width="260dp"
+            android:layout_height="36dp"
+            android:layout_below="@id/feeddesc"
+            android:layout_marginStart="10dp"
+
+            android:layout_marginTop="21dp"
+            android:layout_toEndOf="@id/feedimg"
+            android:drawablePadding="2dp"
+
+            />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
